@@ -1,0 +1,32 @@
+.navbar{
+  background-color: #1DA1F2;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0em 1em;
+}
+
+.nav-logo{
+  display: inline;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-menu{
+  display: inline-block;
+  list-style: none;
+}
+
+.nav-menu li{
+  display: inline;
+}
+.nav-menu a{
+  text-decoration: none;
+  color: white;
+  margin: 0em 0.2em;
+}
+
+.nav-menu li:hover{
+  cursor: pointer;
+}

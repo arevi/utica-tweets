@@ -1,0 +1,21 @@
+.tweet{
+  margin: 0.5em 0;
+  border: 0.1em solid #1DA1F2;
+  border-radius: 0.2em;
+  width: 30vw;
+  text-align: center;
+  min-width: 350px;
+  max-width: 500px;
+}
+
+h5{
+  background-color: #1DA1F2;
+  color: white;
+  padding: 0.1em 0;
+  font-weight: normal;
+}
+
+p{
+  padding: 0.2em 0;
+  overflow-wrap: break-word;
+}

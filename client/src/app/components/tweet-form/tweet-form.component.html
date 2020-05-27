@@ -1,0 +1,20 @@
+<div class="container">
+  <form class="tweet-form" (ngSubmit)="submitTweet()">
+
+    <label for="tweet-input" class="tweet-prompt">
+      Something on your mind?
+    </label>
+
+    <textarea [(ngModel)]="tweetContent" name="tweet-input" class="tweet-input" maxlength="140"
+      (ngModelChange)="countCharacters()">
+    </textarea>
+
+    <p *ngIf="tweetContent.length != 0" class="tweet-count">
+      Characters remaining: {{tweetCharacters}}/140</p>
+
+    <button type="button" class="btn tweet-btn" [disabled]="tweetContent.length == 0" (click)="submitTweet()">
+      Tweet
+    </button>
+
+  </form>
+</div>

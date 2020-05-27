@@ -1,0 +1,13 @@
+.tweet-list{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-header{
+  margin: 0.5em 0;
+  color: #1DA1F2;
+  text-decoration: underline;
+  font-weight: 500;
+}
